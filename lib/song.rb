@@ -11,7 +11,7 @@ class Song
     @@all 
   end 
 def self.new_by_filename(filename)
-  new_instance = self.new_by_filename(filename)
+  new_instance = self.new(filename) 
 end 
     
 end 
