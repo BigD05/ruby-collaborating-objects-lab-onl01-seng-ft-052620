@@ -12,8 +12,7 @@ class Song
   end 
 def self.new_by_filename(filename)
 filename = Artist.new("Black or White")
-filename.artist.each do |artist| 
-  fiename.artist
+
 end 
 end 
 
