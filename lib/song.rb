@@ -11,7 +11,7 @@ class Song
     @@all 
   end 
 def self.new_by_filename(file)
-new_song = Artist.new(filename)
+new_song = Artist.new(file)
 new_song.filename
 end 
 
