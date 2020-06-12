@@ -14,7 +14,6 @@ def self.new_by_filename(filename)
 filename = Artist.new("Black or White")
 
 end 
-end 
 
 def artist_name=(name)
   name = self.new
