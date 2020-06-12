@@ -16,7 +16,9 @@ new_song.filename
 end 
 
 def artist_name=(name)
-  artist = Artist.new(name)
+   song_artist = Artist.find_or_create_by_name(name_string)
+       @artist = song_artist
+      @artist.add_song(self)
   
 end 
     
