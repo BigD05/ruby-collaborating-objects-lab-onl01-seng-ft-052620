@@ -4,6 +4,9 @@ attr_accessor :path
 def initialize(path)
   @path = path
 end 
+def files
+    Dir[@path+"/*.mp3"].map { |file| file.split("/").last }
+  end
   def import
     imported_files = self.files
     imported_files.each do |file|
