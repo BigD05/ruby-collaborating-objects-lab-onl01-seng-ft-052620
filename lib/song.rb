@@ -16,7 +16,7 @@ self.artist = "Black or White"
 end 
 
 def artist_name=(name)
-  name = Artist.new(name)
+  artist = Artist.new(name)
   
 end 
     
