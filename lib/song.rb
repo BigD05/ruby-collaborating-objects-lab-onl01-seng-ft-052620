@@ -12,7 +12,7 @@ class Song
   end 
 def self.new_by_filename(file)
 new_song = Artist.new("Black or White")
-new_song.filename
+
 end 
 
 def artist_name=(name_string)
